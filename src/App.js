@@ -1,10 +1,11 @@
 import './App.css';
 import RandomUser from '../src/components/RandomUser/RandomUser.jsx'
+import IntroMessage from './components/IntroMessage/IntroMessage';
 
 function App() {
   return (
     <div className="App">
-      <h1>halo world</h1>
+      <IntroMessage />
       <RandomUser />
     </div>
   );
